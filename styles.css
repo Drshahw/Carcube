@@ -55,7 +55,7 @@ body {
     bottom: 5px; /* Adjust to move up/down */
     justify-content: center; /* This centers the icons */
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 .icons img {
