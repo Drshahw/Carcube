@@ -23,7 +23,7 @@ body {
 
 /* Logo */
 .logo {
-    max-width: 150px;
+    max-width: 120px; /* Made logo smaller */
     position: absolute;
     top: 20px;
     left: 50%;
@@ -51,11 +51,11 @@ body {
 
 /* Icons */
 .icons {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: relative;
     display: flex;
+    justify-content: center;
     gap: 15px;
+    margin-top: 30px; /* Moved icons down after tagline */
 }
 
 .icons img {
@@ -68,4 +68,5 @@ body {
 .icons img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
+}.2);
 }
