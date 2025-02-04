@@ -52,7 +52,7 @@ body {
 /* Icons */
 .icons {
     position: absolute;
-    bottom: 20px; /* Adjust to move up/down */
+    bottom: 5px; /* Adjust to move up/down */
     display: flex;
     justify-content: center;
     gap: 15px;
