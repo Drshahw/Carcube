@@ -50,7 +50,7 @@ body {
 }
 
 .icons {
-    position: relative;
+    position: absolute;
     bottom: -5px; /* Adjust to move up/down */
     left: 50%;
     transform: translateX(-50%); /* Corrects the shift */
