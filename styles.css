@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 30px; /* Moved icons down after tagline */
+    margin-top: 20px; /* Moved icons down after tagline */
 }
 
 .icons img {
