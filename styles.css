@@ -54,6 +54,7 @@ body {
     position: relative;
     bottom: 5px; /* Adjust to move up/down */
     left: 50%;
+    transform: translateX(-50%); /* Corrects the shift */
     display: flex;
     justify-content: center;
     gap: 15px;
