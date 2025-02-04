@@ -51,7 +51,7 @@ body {
 
 /* Icons */
 .icons {
-    position: absolute;
+    position: relative;
     bottom: 5px; /* Adjust to move up/down */
     left: 50%;
     display: flex;
