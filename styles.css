@@ -56,7 +56,7 @@ body {
     transform: translateX(-50%); /* Corrects the shift */
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
 }
 
 
