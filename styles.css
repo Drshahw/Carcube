@@ -24,7 +24,10 @@ body {
 /* Logo */
 .logo {
     max-width: 150px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Text */
@@ -48,10 +51,11 @@ body {
 
 /* Icons */
 .icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     display: flex;
-    justify-content: center;
     gap: 15px;
-    margin-top: 20px;
 }
 
 .icons img {
@@ -64,12 +68,4 @@ body {
 .icons img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
-}
-
-/* Footer */
-footer {
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 20px;
-    font-size: 1em;
 }
