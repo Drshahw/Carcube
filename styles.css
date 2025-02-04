@@ -46,16 +46,16 @@ body {
 .tagline {
     font-style: italic;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 /* Icons */
 .icons {
-    position: relative;
+    position: absolute;
+    bottom: 20px; /* Adjust to move up/down */
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 20px; /* Moved icons down after tagline */
 }
 
 .icons img {
