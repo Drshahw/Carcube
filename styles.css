@@ -49,15 +49,14 @@ body {
     margin: 5px 0;
 }
 
-/* Icons */
 .icons {
     position: relative;
-    bottom: -15px; /* Adjust to move up/down */
-    left: 50%;
-    transform: translateX(-50%); /* Corrects the shift */
+    bottom: -5px;
     display: flex;
-    gap: 5px;
+    justify-content: center; /* This centers the icons */
+    gap: 15px;
 }
+
 
 .icons img {
     width: 60px;
