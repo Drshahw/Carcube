@@ -51,7 +51,7 @@ body {
 
 .icons {
     position: absolute;
-    bottom: 20px; /* Adjust to move up/down */
+    bottom: 25px; /* Adjust to move up/down */
     left: 50%;
     transform: translateX(-50%); /* Corrects the shift */
     display: flex;
