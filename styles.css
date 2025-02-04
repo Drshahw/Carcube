@@ -53,6 +53,7 @@ body {
 .icons {
     position: absolute;
     bottom: 5px; /* Adjust to move up/down */
+    left: 50%;
     display: flex;
     justify-content: center;
     gap: 15px;
